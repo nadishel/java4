@@ -1,0 +1,12 @@
+package home;
+
+public class Convertor {
+
+    public static void main(String[] args) {
+
+        int euro = 100;
+        double kurs = 1.12;
+        System.out.println(euro + " euro = " + (int)(euro * kurs) + " dollars");
+
+    }
+}

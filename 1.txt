@@ -1,0 +1,27 @@
+package home;
+
+import java.util.Scanner;
+
+public class WorkWithString {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Input first word:");
+        String firstWord = scan.nextLine();
+        System.out.println("Input second word:");
+        String secondWord = scan.nextLine(); 
+
+
+        System.out.println("value of variable - " + firstWord);
+        System.out.println("value of variable - " + secondWord);
+        String test = firstWord.substring(0, firstWord.length()/2).concat(secondWord.substring(secondWord.length()/2));
+        System.out.println(secondWord.length()/2);
+        System.out.println(test.length());
+
+        // System.out.println(firstWord.substring(0, firstWord.length()/2) + secondWord.substring(secondWord.length()/2));
+
+    }
+}
+
+
+

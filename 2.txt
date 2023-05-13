@@ -1,0 +1,21 @@
+package home;
+
+public class MathOps {
+
+    public static void main(String[] args) {
+
+        int a = 20;
+        int b = 10;
+
+        sumTwoNumbers(a,b);
+        nadezhdaChtoVychitaet(a, b);
+    }
+
+    public static void sumTwoNumbers (int h, int d) {
+        System.out.println("Summa a & b = " + (h + d));
+    }
+
+    public static void nadezhdaChtoVychitaet (int a, int b) {
+        System.out.println("Raznitsa a & b = " + (a - b));
+    }
+}
